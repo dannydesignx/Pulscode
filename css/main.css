@@ -9,4 +9,15 @@
 
 root {
     display: block;
+    
+}
+
+
+body{
+    background-color:blue;
+}
+.testclass{
+    background-color:red;
+    width:200px;
+    height:20px;
 }

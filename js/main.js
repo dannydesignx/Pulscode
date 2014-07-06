@@ -1,7 +1,7 @@
-/**
-* Created with Pulscode.
-* User: DannyDesignx
-* Date: 2014-07-06
-* Time: 01:41 AM
-* To change this template use Tools | Templates.
-*/
+$(document).ready(function(){
+
+
+  $("button").on("click", function(){
+    $("p").toggle("p");
+  });
+});
