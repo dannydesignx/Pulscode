@@ -6,18 +6,55 @@
     Purpose of the stylesheet follows.
     To change this template use Tools | Templates.
 */
-
-root {
+ root {
     display: block;
-    
+}
+body {
+    background: -webkit-radial-gradient(#aaa, #777);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#header-nav-group{
+	padding-left:5%;
+}
+
+header {
+    position:relative;
+    top:0;
+    width:100%;
+    height:70px;
+    padding-bottom:8px;
+    text-align: left;
+    border-bottom: medium double lightgray;
 }
 
 
-body{
-    background-color:blue;
+header h1{
+	position: relative;
+	float: left;
+	width:50%;
+	
 }
-.testclass{
-    background-color:red;
-    width:200px;
-    height:200px;
+
+header nav{
+	position: relative;
+	float: left;
+	width:50%;
+	
+}
+
+
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:70px;
+    padding-bottom:8px;
+    padding-left:5%;
+    text-align: left;
+    border-top: medium double lightgray;
 }
