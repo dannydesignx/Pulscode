@@ -29,6 +29,7 @@ header {
     top:0;
     width:100%;
     height:70px;
+	margin-bottom:2%;
     padding-bottom:8px;
     text-align: left;
     border-bottom: medium solid rgb(143, 178, 5);
@@ -80,11 +81,15 @@ header nav a:hover{
 }
 
 
-
+.ui-article-divider{
+	border: solid thin rgb(143, 178, 5);
+	width: 90%;
+	
+}
 
 section{
 	display: inline-block;
-	width:90%;
+	width:75%;
 	margin-top:auto;
 	margin-top:auto;
 	background-color: white;
@@ -92,10 +97,17 @@ section{
 	margin-right:auto;
 	padding:1%;
 	overflow: hidden;
+	border: solid 2px rgb(143, 178, 5);
 }
 
+.ui-article{
+	display:inline-block;
+	overflow:hidden;
+	margin-bottom: 10%;
+	
+}
 
-article .ui-article-head{
+.ui-article-head{
 	position: relative;
 	display:block;
 	width:100%;
@@ -104,18 +116,20 @@ article .ui-article-head{
 	text-align:center;
 	float:left;
 	overflow:hidden;
-	margin-top:4%;
-	margin-bottom:4%;
+	margin-top:5%;
+	margin-bottom:10%;
 }
 
 
-
-article .ui-article-body {
-	margin-top:4%;
-	margin-bottom:4%;
+.ui-article-head h2{
+	margin-bottom:1%;
 }
 
-article .ui-article-body img{
+.ui-article-body {
+	
+}
+
+.ui-article-body > img{
 	position: relative;
 	display:block;
 	width:45%;
@@ -123,16 +137,18 @@ article .ui-article-body img{
 	margin-right:10%;
 }
 
-article .ui-article-body > p{
+.ui-article-body > p{
 	position: relative;
-	display:block;
+	display:inline-block;
 	width:45%;
 	float: left;
+	
 	
 }
 
 
 footer {
+	margin-top:2%;
     position:relative;
     bottom:0;
     width:100%;
