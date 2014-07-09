@@ -10,8 +10,6 @@
     display: block;
 }
 body {
-	
-    background: -webkit-radial-gradient(#333, #222);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -29,10 +27,11 @@ header {
     top:0;
     width:100%;
     height:70px;
-	margin-bottom:2%;
     padding-bottom:8px;
     text-align: left;
-    border-bottom: medium solid rgb(143, 178, 5);
+    border-bottom: thin solid rgb(143, 178, 5);
+	background: -webkit-linear-gradient(#333, #222);
+	box-shadow: 1px 0 5px 0 #111;
 	overflow: hidden;
 }
 
@@ -49,7 +48,7 @@ header > .header-nav{
 	position: relative;
 	display:inline-block;
 	float: left;
-	top:28px;
+	top:25px;
 	width:50%;
 	float:right;
 	text-align: right;
@@ -65,19 +64,26 @@ header > .header-nav nav{
 
 header .header-nav-btn{
 	position: relative;
-	display: inline;
+	display: inline-block;
 	float:left;
+	padding: 5px;
 	margin-left: 25px;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: bold;
 	color: #bbb;
 	cursor: pointer;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	background: (,rgb(159, 198, 0 rgb(143, 178, 5));
 	
 }
 
-header nav a:hover{
+header .header-nav-btn:hover{
 	color:white;
+	
 }
 
 
@@ -87,24 +93,33 @@ header nav a:hover{
 	
 }
 
+.ui-page{
+	display: block;
+	width:100%;
+	background-color: #f2f2f2;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1%;
+	overflow: hidden;
+}
+
 section{
 	display: inline-block;
-	width:75%;
+	width:60%;
 	margin-top:auto;
 	margin-top:auto;
 	background-color: white;
 	margin-left:auto;
 	margin-right:auto;
-	padding:1%;
+	padding:2%;
 	overflow: hidden;
-	border: solid 2px rgb(143, 178, 5);
+	border: solid thin #999;
 }
 
 .ui-article{
 	display:inline-block;
 	overflow:hidden;
 	margin-bottom: 10%;
-	
 }
 
 .ui-article-head{
@@ -148,17 +163,18 @@ section{
 
 
 footer {
-	margin-top:2%;
     position:relative;
     bottom:0;
     width:100%;
     height:70px;
-    border-top: medium solid rgb(143, 178, 5);
+    border-top: thin solid rgb(143, 178, 5);
+	background: -webkit-linear-gradient(#222, #333);
+	box-shadow: 1px 0 5px 0 #111;
 }
 
 footer h4{
     padding-bottom:8px;
-    padding-left:;
+    padding-left:5%;
 	
 	color:#ddd;
 }
